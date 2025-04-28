@@ -13,37 +13,24 @@
     <!--CDN de bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!--Estilos personalizados-->
+    <link rel="stylesheet" href="{{ asset('css/estilos.css')}}">
+    
     <title>
         @yield('titulo', 'web')
     </title>
-
-    <style>
-        body {
-            background-image: url('{{ asset('images/imagen_inicial.png') }}');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
-
-        .contenido {
-            color: white;
-            text-align: center;
-            padding-top: 20%;
-            font-size: 2rem;
-            font-weight: bold;
-            text-shadow: 1px 1px 3px black;
-        }
-    </style>
-
-
 </head>
 <body>
+    {{--navbar (menu) opcional--}}
+    @include('partials.navbar')
+
+    {{--contenido--}}
     <div class="contenido">
-        ¡Bienvenido a mi sitio!
+        @yield('contenido')
     </div>
+
+    {{--navbar (menu) opcional--}}
+    @include('partials.footer')
     
 </body>
 </html>
