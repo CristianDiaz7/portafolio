@@ -1,5 +1,6 @@
 body {
-    background-image: url('../images/fondo_inicial.png');
+    background-image: url('../images/fondo-por-defecto.png');
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,5 +8,23 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
+}
+
+body.inicio-fondo {
+    background-image: url('../images/fondo-inicio.jpg');
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
+}
+
+.bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 

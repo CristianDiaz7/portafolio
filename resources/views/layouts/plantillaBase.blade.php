@@ -20,7 +20,8 @@
         @yield('titulo', 'web')
     </title>
 </head>
-<body>
+<body class="@yield('body-class')">
+    
     {{--navbar (menu) opcional--}}
     @include('partials.navbar')
 
@@ -31,6 +32,7 @@
 
     {{--navbar (menu) opcional--}}
     @include('partials.footer')
-    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
