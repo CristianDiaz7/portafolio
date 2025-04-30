@@ -3,7 +3,48 @@
 @section('body-class', 'inicio-fondo')
 
 @section('contenido')
+<div class="container text-center presentacion mt-5">
+    <!-- Foto de perfil -->
+    <img src="{{ asset('images/foto-de-perfil.jpg') }}"
+         alt="Foto de Cristian"
+         class="foto-perfil mb-2">
 
+    <!-- Nombre -->
+    <h1 class="fw-bold text-white">
+        Cristian Ruiz Díaz
+    </h1>
 
+    <div class="d-flex flex-column align-items-center">
+        <!-- Rol profesional -->
+        <div class="p-3 mb-2 bg-info text-white rounded w-auto mx-auto ">
+            <h4 class="mb-0">
+                Tec sup. en análisis de sistemas y programación
+            </h4>
+        </div>
 
+        <!-- Descripción corta -->
+        <div class="p-3 mb-2 bg-info text-white rounded w-auto mx-auto">
+            <p class="mb-0">
+                Desarrollo web full stack con Laravel.
+            </p>
+        </div>
+    </div>  
+
+    <!-- Botones -->
+    <div class="mt-2 d-flex justify-content-center gap-3 flex-wrap">
+
+        <a href="{{ asset('cv/Curricula programador 2025.pdf') }}" 
+        class="btn btn-light" target="_blank">📄 Ver CV</a>
+
+        <a href="{{ asset('cv/Carta de presentacion.pdf') }}" 
+        class="btn btn-light" target="_blank">📄 Ver CP</a>
+        <a href="https://www.linkedin.com/in/cristian-ruiz-diaz-744466338/" 
+        class="btn btn-primary" target="_blank">🔗 LinkedIn</a>
+        <a href="https://github.com/CristianDiaz7" 
+        class="btn btn-light" target="_blank">🐙 GitHub</a>
+        <a href="https://wa.me/5403751524739?text=Hola%2C%20vi%20tu%20portfolio%20y%20me%20gustaría%20contactarte" 
+            class="btn btn-success" 
+            target="_blank">📱 WhatsApp</a>
+    </div>
+</div>
 @endsection
