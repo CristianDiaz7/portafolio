@@ -1,7 +1,7 @@
 /* Estilo general del body */
 body,
-body.inicio-fondo {
-    background-image: url('../images/fondo-por-defecto.png');
+body.inicio-fondo,
+body.sobre-mi-fondo {
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -13,9 +13,12 @@ body.inicio-fondo {
     min-height: 100vh;
 }
 
-/* Si está en la página de inicio, cambia la imagen */
+/* Imagenes de fondo segun la seccion */
 body.inicio-fondo {
-    background-image: url('../images/fondo-2.jpg');
+    background-image: url('../images/inicio-fondo.jpg');
+}
+body.sobre-mi-fondo {
+    background-image: url('../images/sobre-mi-fondo.png');
 }
 
 /* Navbar con fondo translúcido */
@@ -54,4 +57,9 @@ body.inicio-fondo {
         width: 18rem;
         height: 18rem;
     }
+}
+
+.contenido-subpaginas {
+    min-height: 100vh;
+    padding: 4rem;
 }

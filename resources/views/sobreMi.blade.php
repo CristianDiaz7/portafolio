@@ -1,8 +1,9 @@
 @extends('layouts.plantillaBase')
 @section('titulo', 'Sobre mi')
-    
+@section('body-class', 'sobre-mi-fondo')  
 @section('contenido')
-<div class="container-fluid" style="min-height: 100vh; padding: 4rem;">
+
+<div class="container-fluid  contenido-subpaginas">
     <div class="row">
         <div class="col-md-6" style="max-width: 700px;">
             <h1 class="text-white fw-bold text-start mb-4">

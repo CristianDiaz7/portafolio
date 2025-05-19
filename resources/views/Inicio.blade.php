@@ -1,8 +1,8 @@
 @extends('layouts.plantillaBase')
 @section('titulo', 'Ruiz Diaz')
 @section('body-class', 'inicio-fondo')
-
 @section('contenido')
+
 <div class="container text-center presentacion mt-5">
     <!-- Foto de perfil -->
     <img src="{{ asset('images/foto-de-perfil.jpg') }}"

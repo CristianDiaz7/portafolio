@@ -15,6 +15,7 @@
 
     <!--Estilos personalizados-->
     <link rel="stylesheet" href="{{ asset('css/estilos.css')}}">
+    <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
     
     <title>
         @yield('titulo', 'web')
