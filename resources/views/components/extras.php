@@ -2,12 +2,19 @@
     <div class="card h-100 shadow border-success">
         <div class="card-body">
             <h5 class="card-title text-secondary">➕ Extras Opcionales</h5>
-            <ul class="list-unstyled">
-                <li>• 🌐 Dominio + Hosting anual: $35.000 – $60.000</li>
-                <li>• 🖼️ Diseño de logo e identidad visual: desde $70.000</li>
-                <li>• 📸 Banco de imágenes premium: desde $20.000</li>
-                <li>• 🧑‍💼 Mantenimiento mensual (actualizaciones y soporte): desde $40.000/mes</li>
-            </ul>
+            <br>
+            <p>
+                Servicios complementarios que podés agregar para potenciar tu sitio web 
+                o tienda online. Ideales para destacar tu marca, mejorar la experiencia 
+                del usuario o automatizar tareas.
+            </p>
+
+            <br>
+
+            <a href="#" class="btn btn-outline-secondary mt-3">
+                Más detalles
+            </a>
+        </div>
         </div>
     </div>
 </div>

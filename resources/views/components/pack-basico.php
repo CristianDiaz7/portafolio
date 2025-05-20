@@ -5,16 +5,9 @@
             <p>
             Ideal para emprendedores, profesionales o negocios que necesitan presencia en Internet de forma rápida y efectiva.
             </p>
-             <!-- 
-            <ul class="list-unstyled">
-                <li>• Diseño responsive (adaptable a celular y PC)</li>
-                <li>• Secciones: Inicio, Sobre mí/Nosotros, Contacto</li>
-                <li>• Enlaces a redes sociales y WhatsApp</li>
-                <li>• Carga de imágenes y textos</li>
-            </ul>
-            <p><strong>💵 Precio estimado:</strong> $200.000 – $300.000</p>
-            <p><strong>⏱️ Tiempo estimado:</strong> 5 a 7 días</p>
-             -->
+            <br>
+             <br>
+
             <a href="#" class="btn btn-outline-success mt-3">
                 Más detalles</a>
         </div>

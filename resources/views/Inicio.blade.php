@@ -32,12 +32,13 @@
 
     <!-- Botones -->
     <div class="mt-2 d-flex justify-content-center gap-3 flex-wrap">
-
+        
+         <!-- CV y carta presentacion 
         <a href="{{ asset('cv/Curricula programador 2025.pdf') }}" 
         class="btn btn-light" target="_blank">📄 Ver CV</a>
-
         <a href="{{ asset('cv/Carta de presentacion.pdf') }}" 
         class="btn btn-light" target="_blank">📄 Ver CP</a>
+        -->
         <a href="https://www.linkedin.com/in/cristian-ruiz-diaz-744466338/" 
         class="btn btn-primary" target="_blank">🔗 LinkedIn</a>
         <a href="https://github.com/CristianDiaz7" 

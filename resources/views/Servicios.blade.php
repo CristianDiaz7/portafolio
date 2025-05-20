@@ -13,8 +13,8 @@
         <div class="row justify-content-center">
             <!-- Incluir componente de Pack Básico -->
             <x-pack-basico/>
-            <x-pack-pro/>
-            <x-pack-premium/>
+            <x-pack-institucional/>
+            <x-pack-autoadministrable/>
             <x-pack-e-commerce/>
             <x-extras/>
 

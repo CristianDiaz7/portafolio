@@ -23,12 +23,9 @@
                 La capacidad de comprensión y resolución de problemas son rasgos que me definen como analista.
             </p>
             <p class="text-white text-start">
-                Estoy ansioso por asumir nuevos retos y continuar cultivando mi pasión por la programación y el análisis de sistemas.
-            </p>
-            <p class="text-white text-start">
                 Agradezco su tiempo y consideración al visitar mi perfil. Quedo a su disposición para ampliar cualquier detalle o proporcionar información adicional.
             </p>
         </div>
-    </div>
+
 </div>
 @endsection
