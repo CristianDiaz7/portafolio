@@ -10,20 +10,20 @@
                 Hola, gracias por visitar mi web
             </h1>
             <p class="text-white text-start">
-                Permítame presentarme, soy Cristian, un egresado de carrera de Técnico Superior en Análisis de Sistemas y programación.
+                Permítame presentarme, soy Cristian, un profesional en Análisis de Sistemas y programación.
             </p>
             <p class="text-white text-start">
-                Durante mis estudios, he tenido la oportunidad de adquirir competencias en una variedad de áreas cruciales.
+                Durante mi formación, he tenido la oportunidad de adquirir competencias en una variedad de áreas cruciales.
                 Mi formación incluye el manejo de lenguajes como Java, Visual Basic, JavaScript, PHP, lenguaje C, así como la administración de bases de datos con MySQL y MariaDB.
             </p>
             <p class="text-white text-start">
-                Además, he tenido la oportunidad de sumergirme en el mundo del desarrollo web a través de prácticas con Laravel, HTML5, CSS, JavaScript, Bootstrap y Tailwind CSS.
+                Actualmetne estoy en mundo del desarrollo web a través de prácticas con Laravel 12, HTML5, CSS, JavaScript, Bootstrap, micro servicios.
             </p>
             <p class="text-white text-start">
                 La capacidad de comprensión y resolución de problemas son rasgos que me definen como analista.
             </p>
             <p class="text-white text-start">
-                Agradezco su tiempo y consideración al visitar mi perfil. Quedo a su disposición para ampliar cualquier detalle o proporcionar información adicional.
+                Agradezco tu tiempo e interes al visitar mi perfil. Quedo a tu disposición para ampliar cualquier detalle o proporcionar información adicional.
             </p>
         </div>
 

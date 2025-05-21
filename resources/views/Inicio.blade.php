@@ -10,24 +10,26 @@
          class="foto-perfil mb-2">
 
     <!-- Nombre -->
-    <h1 class="fw-bold text-white">
-        Cristian Ruiz Díaz
+    <h1 class="fw-bold text-border">
+        Cristian Ruiz Diaz
     </h1>
 
     <div class="d-flex flex-column align-items-center">
+
         <!-- Rol profesional -->
-        <div class="p-3 mb-2 bg-info text-white rounded w-auto mx-auto ">
+        <div class="p-3 mb-2 bg-info text-black rounded w-auto mx-auto ">
             <h4 class="mb-0">
                 Tec sup. en análisis de sistemas y programación
             </h4>
         </div>
 
         <!-- Descripción corta -->
-        <div class="p-3 mb-2 bg-info text-white rounded w-auto mx-auto">
+        <div class="p-3 mb-2 bg-info text-black rounded w-auto mx-auto">
             <p class="mb-0">
                 Desarrollo web full stack con Laravel.
             </p>
         </div>
+        
     </div>  
 
     <!-- Botones -->
