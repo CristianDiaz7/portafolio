@@ -19,7 +19,7 @@
                 <a class="nav-link {{ set_active('servicios') }}" href="{{"/servicios"}}">Servicios</a>
             </li>
             <li class="nav-item px-4 text-nowrap">
-                <a class="nav-link {{ set_active('contactame')}}" href="{{"#contacto"}}">Contactame</a>
+                <a class="nav-link {{ set_active('contacto')}}" href="{{"/contacto"}}">Contactame</a>
             </li>
         </ul>
 

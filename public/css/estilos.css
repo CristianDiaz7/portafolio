@@ -1,7 +1,8 @@
 /* Estilo general del body */
 body,
 body.inicio-fondo,
-body.sobre-mi-fondo {
+body.sobre-mi-fondo,
+body.contacto {
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -21,6 +22,9 @@ body.sobre-mi-fondo {
     background-image: url('../images/sobre-mi-fondo.png');
 }
 
+body.contacto {
+    background-image: url('../images/sobre-mi-fondo.png');
+}
 /* Navbar con fondo translúcido */
 .bg-dark-transparent {
     background-color: rgba(0, 0, 0, 0.5);

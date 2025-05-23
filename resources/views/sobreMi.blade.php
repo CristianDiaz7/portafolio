@@ -1,5 +1,5 @@
 @extends('layouts.plantillaBase')
-@section('titulo', 'Sobre mi')
+@section('titulo', 'sobre mi')
 @section('body-class', 'sobre-mi-fondo')  
 @section('contenido')
 
