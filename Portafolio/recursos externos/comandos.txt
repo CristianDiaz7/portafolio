@@ -1,0 +1,7 @@
+Iniciar un nuevo proyecto
+composer create-project laravel/laravel nombre-del-proyecto
+
+Ejecutar un proyecto:
+php artisan serve
+
+me dio dos codigos uno dice Incruste código en el <head> de su html y el otro Poppins: clases CSS
