@@ -1,0 +1,108 @@
+/* Estilo general del body */
+body,
+body.inicio-fondo,
+body.sobre-mi-fondo,
+body.contacto {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
+    min-height: 100vh;
+}
+
+/* Imagenes de fondo segun la seccion */
+body.inicio-fondo {
+    background-image: url('../images/inicio-fondo.jpg');
+}
+body.sobre-mi-fondo {
+    background-image: url('../images/sobre-mi-fondo.png');
+}
+
+body.contacto {
+    background-image: url('../images/contacto.png');
+}
+/* Navbar con fondo translúcido */
+.bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Separación del navbar para que no tape el contenido */
+.presentacion {
+    padding-top: 1rem; 
+}
+
+@media (max-width: 768px) {
+    .presentacion {
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .presentacion {
+        padding-top: 4rem;
+    }
+}
+
+/* Imagen de perfil */
+.foto-perfil {
+    width: 14rem;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+@media (min-width: 768px) {
+    .foto-perfil {
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
+.contenido-subpaginas {
+    min-height: 100vh;
+    padding: 4rem;
+}
+
+/* dordes del texto de titulos */
+.text-border {
+    color: white;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+
+/*--------------------------------------------------------------------- */
+.image-crossfade {
+    position: relative;
+    width: 300px; /* o el tamaño que usabas antes */
+    height: 300px;
+    margin: auto;
+}
+
+.crossfade-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    z-index: 1;
+    border-radius: 50%; /* asegura que siga siendo redonda */
+}
+
+.crossfade-img.visible {
+    opacity: 1;
+    z-index: 2;
+}
+
+/*--------------------------------------------------------------------- */
