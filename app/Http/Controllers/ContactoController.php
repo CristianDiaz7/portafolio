@@ -19,7 +19,7 @@ class ContactoController extends Controller
         // Envía el correo
         Mail::to('cristian.ruizdiaz.tec@gmail.com')->send(new ContactoMailable($datos));
 
-        return back()->with('success', 'Tu mensaje fue enviado correctamente.');
+        return redirect(url()->previous() . '#contacto')
+       ->with('success', 'Tu mensaje fue enviado correctamente.');
     }
 }
-

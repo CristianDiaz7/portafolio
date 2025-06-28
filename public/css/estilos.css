@@ -1,8 +1,8 @@
 /* Estilo general del body */
-body,
-body.inicio-fondo,
-body.sobre-mi-fondo,
-body.contacto {
+html {
+  scroll-behavior: smooth;
+}
+body {
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -106,3 +106,75 @@ body.contacto {
 }
 
 /*--------------------------------------------------------------------- */
+
+.nav-link.active {
+    color: #007bff; /* color azul bootstrap */
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+}
+
+/*------------------------------ SECCION TECNOLOGIA--------------------------------------- */
+#tecnologias {
+    padding: 60px 0;
+}
+
+#tecnologias .card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    color: #f1f1f1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    border-radius: 15px;
+}
+
+#tecnologias .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+    border-color: rgba(255, 0, 0, 0.6);
+}
+
+#tecnologias h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+#tecnologias .card-title {
+    color: #ff4b4b;
+    font-weight: 600;
+}
+
+#tecnologias .card-text {
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+/*------------------------------ componente-Productos--------------------------------------- */
+.card {
+    backdrop-filter: blur(4px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 12px;
+}
+
+.text-danger-soft {
+    color: #ff4b4b;
+}
+.border-danger-soft {
+    border-color: #ff4b4b;
+}
+.btn-outline-danger-soft {
+    color: #ff4b4b;
+    border-color: #ff4b4b;
+}
+.btn-outline-danger-soft:hover {
+    background-color: #ff4b4b;
+    color: #000;
+}

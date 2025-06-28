@@ -1,6 +1,6 @@
 <x-pack.product-card
     id="institucional"
-    color="primary"
+    color="danger"
     icon="🔵"
     title="Sitio Institucional"
     description="

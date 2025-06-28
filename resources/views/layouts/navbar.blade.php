@@ -1,4 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark-transparent fixed-top">
+    
     <div class="container-fluid">
         <a class="navbar-brand" href="{{url('/')}}">Bienvenido</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -10,18 +11,21 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
             <li class="nav-item px-4">
-                <a class="nav-link {{ set_active('/') }}" href="{{ url('/') }}">Inicio</a>
+                <a class="nav-link" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item px-4 text-nowrap">
-                <a class="nav-link {{ set_active('sobre_mi') }}"  href="{{url('/sobre_mi')}}">Sobre mi</a>
+                <a class="nav-link" href="#tecnologias">Tecnologías</a>
             </li>
             <li class="nav-item px-4 text-nowrap">
-                <a class="nav-link {{ set_active('servicios') }}" href="{{"/servicios"}}">Servicios</a>
+                <a class="nav-link" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item px-4 text-nowrap">
-                <a class="nav-link {{ set_active('contacto')}}" href="{{"/contacto"}}">Contactame</a>
+                <a class="nav-link" href="#contacto">Contáctame</a>
             </li>
         </ul>
 
     </div>
 </nav>
+@push('scripts')
+    <script src="{{ asset('js/resalto-menu.js') }}"></script>
+@endpush

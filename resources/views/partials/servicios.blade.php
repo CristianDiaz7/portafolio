@@ -1,9 +1,4 @@
-@extends('layouts.plantillaBase')
-@section('titulo', 'servicios')
-@section('body-class', 'inicio-fondo')
-@section('contenido')
-
-<div class="container-fluid  contenido-subpaginas">
+<section class="container-fluid  contenido-subpaginas"  id="servicios">
     
     <div class="container">
         <h2 class="text-center text-border mb-4">Catálogo de Servicios Web</h2>
@@ -15,7 +10,5 @@
             <x-pack.ecommerce />
             <x-pack.extras/>
         </div>
-        
     </div>
-</div>
-@endsection
+</section>

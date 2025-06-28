@@ -1,6 +1,6 @@
 <x-pack.product-card
     id="extras"
-    color="secondary"
+    color="danger"
     icon="➕"
     title="Extras Opcionales"
     description="

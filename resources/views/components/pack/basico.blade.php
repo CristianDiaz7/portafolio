@@ -1,6 +1,6 @@
 <x-pack.product-card
     id="basico"
-    color="success"
+    color="danger"
     icon="🟢"
     title="Sitio web de una sola página"
     description="Ideal para emprendedores, profesionales o negocios que necesitan presencia en Internet de forma rápida y efectiva."

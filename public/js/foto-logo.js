@@ -29,5 +29,5 @@ document.addEventListener("DOMContentLoaded", function () {
         current.classList.remove('visible');
 
         showingImg1 = !showingImg1;
-    }, 6000);
+    }, 4000);
 });
